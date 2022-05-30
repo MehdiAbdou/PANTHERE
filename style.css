@@ -32,9 +32,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -66,9 +63,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
     background-size: auto!important;
 }
 
@@ -846,8 +840,13 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
 }
 
+.carte{
+    width:100%;
+    height: 430px;
+}
 
 @media (max-width: 991px) {
     .container {
@@ -861,10 +860,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding: env(safe-area-inset-left);
-        padding: env(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -873,12 +869,13 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding: env(safe-area-inset-left);
-        padding: env(safe-area-inset-right);
     }
 }
 
 @media (max-width: 767px) {
+    .carte{
+        margin-top: 20px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -947,7 +944,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
@@ -1028,4 +1024,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.lien_fourchettes{
+    font-style: italic;
 }
