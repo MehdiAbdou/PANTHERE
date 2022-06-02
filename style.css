@@ -502,6 +502,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 100%;
 }
 
 .scrollToTop {
@@ -671,7 +672,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1032,4 +1033,8 @@ h4 {
 
 .lien_fourchettes{
     font-style: italic;
+}
+
+.form-group label{
+    width: 100%;
 }
