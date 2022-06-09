@@ -506,12 +506,12 @@ button {
 }
 
 .scrollToTop {
+    color: #FFF;
     width: 40px;
     height: 40px;
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -1041,3 +1041,4 @@ h4 {
 .form-group label{
     width: 100%;
 }
+
